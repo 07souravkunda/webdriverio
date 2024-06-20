@@ -40,6 +40,8 @@ import TestOpsConfig from './testOps/testOpsConfig.js'
 
 import AccessibilityScripts from './scripts/accessibility-scripts.js'
 
+import AccessibilityScripts from './scripts/accessibility-scripts.js'
+
 const pGitconfig = promisify(gitconfig)
 
 export const DEFAULT_REQUEST_CONFIG = {
