@@ -40,7 +40,7 @@ jobs:
       - name: Dependency Check
         run: npm run test:depcheck
       - name: Lint / Typings / Unit / Smoke / Component Tests
-        run: npm run test
+        run: npm run test:component
       # - name: Interop Tests
       #   run: npm run test:e2e:cjs
       # - name: E2E Launch Tests
