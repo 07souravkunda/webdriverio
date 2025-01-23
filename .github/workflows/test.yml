@@ -3,6 +3,10 @@
 name: Test
 
 on:
+  workflow_dispatch:
+    inputs:
+      name:
+        required: false
   push:
     branches:
       - main
