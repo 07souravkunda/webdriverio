@@ -1,6 +1,6 @@
 {
   "name": "@wdio/browserstack-service",
-  "version": "9.5.7",
+  "version": "9.6.1",
   "description": "WebdriverIO service for better Browserstack integration",
   "author": "Adam Bjerstedt <abjerstedt@gmail.com>",
   "homepage": "https://github.com/webdriverio/webdriverio/tree/main/packages/wdio-browserstack-service",
@@ -28,6 +28,10 @@
     ".": {
       "types": "./build/index.d.ts",
       "import": "./build/index.js"
+    },
+    "./cleanup": {
+      "source": "./src/cleanup.ts",
+      "import": "./build/cleanup.js"
     }
   },
   "typeScriptVersion": "3.8.3",
